@@ -1,0 +1,364 @@
+ 
+    .category{
+        width: 96%;
+
+     
+        border-radius:30px;
+        /* margin-Left:2%;  */
+        margin-Right:2%;
+        margin-Bottom:10px;
+   
+         background-Size:cover;
+        align-Items:center;
+        justify-Content: center;
+    
+    
+    }
+    .category2{
+      width: 96%;
+      /* height: 50%; */
+      /* height: 300px; */
+      /* overflow: scroll; */
+      border-radius:30px;
+      /* margin-Left:2%;  */
+      margin-Right:2%;
+      margin-Bottom:10px;
+ 
+       background-Size:cover;
+      align-Items:center;
+      justify-Content: center;
+  
+  
+  }
+
+.bgCat{
+  /* background-color: white; */
+  background: rgba(48, 46, 45, 0.5);
+  color: #0e0c0c;
+  height: 100%;
+  border-radius:30px;
+  /* border: 1px solid black; */
+}
+
+  .category11{
+    width: 97%;
+    /* height: 50%; */
+    /* height: 300px; */
+    /* overflow: scroll; */
+    border-radius:30px;
+    margin-Left:4.5%; 
+    margin-Right:2%;
+    margin-Bottom:10px;
+
+     background-Size:cover;
+    align-Items:center;
+    justify-Content: center;
+
+
+}
+
+  .scrollHolder{
+    position: sticky;
+     position:-webkit-sticky;
+     padding-top: 5px;
+      top:0px;
+    z-index: 5;
+     
+  }
+  .category3{
+    width: 96%;
+    /* height: 50%; */
+    height: 60vh;
+    /* overflow: scroll; */
+    border-radius:30px;
+    /* margin-Left:2%;  */
+    margin-Right:2%;
+    margin-Bottom:10px;
+
+     background-Size:cover;
+    align-Items:center;
+    justify-Content: center;
+
+
+}
+    .mainMenu{
+      cursor: pointer;
+    background: var(--color-white);
+    border: 3px solid var(--color-primary);
+    border-radius: 32px;
+    padding: 5px 10px 4px;
+    color: var(--color-primary);
+    font-weight: 600;
+    white-space: nowrap;
+     display: flex;
+    }
+
+    
+      .categoryText{
+    color: rgb(255, 255, 255);
+ 
+    font-size: x-large;
+    }
+
+    .foodImage{
+      width: 100%;
+      /* height: 30%; */
+      
+      border-radius:30px;
+      margin-Left:1%;
+      margin-Right:1%;
+      margin-Bottom:10px;
+      object-fit: cover;
+       background-Size:cover;
+      align-Items:center;
+      justify-Content: center;
+    }
+
+    .skeletonAnimation {
+      animation: skeleton-loading 1s linear infinite alternate ;
+    }
+
+    .skeletonText{
+      width: 100%;
+      
+      justify-content: center;
+      height: 0.5rem;
+      margin-bottom: .25rem;
+      border-radius: .125rem;
+    }
+
+    .skeletonText:last-child {
+      width: 70%;
+    }
+
+    @keyframes skeleton-loading {
+      0% {
+        background-color: hsl(200, 20%, 70%);
+      }
+      100% {
+        background-color: hsl(200, 20%, 95%);
+      }
+
+    }
+
+
+
+
+    .foodTitle{
+      font-size:3vh;  
+      padding-left: 30px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      overflow:hidden;
+      text-overflow:ellipsis;
+    }
+
+     
+    .foodDisc{
+      /* max-height: 120px; */
+      white-space:nowrap;
+      position: relative;
+      overflow:hidden;
+     text-overflow: clip;
+    
+      /* background-image: linear-gradient(0deg, #dbd0d0,transparent ); */
+      /* background-image: -webkit-gradient(linear; left top; left bottom; from(rgba(255; 255; 255; 1)); to(rgba(0; 0; 0; 0)));; */
+    }
+    .foodDiscRead{
+       padding: auto;
+    }
+
+    .cursor{
+      cursor: pointer;
+    }
+    
+    @media screen and (max-width: 2000px){
+      .category{
+        /* height: 23vh; */
+        height: 176px;
+      }
+      .foodImage{
+        height: 320px;
+      }
+
+    }
+
+    @media screen and (max-width: 560px){
+      .category{
+       /* height: 15vh;  */
+       height: 30vw;
+      }
+      .foodImage{
+        height: 55vw;
+      }
+      .foodTitle  {
+        font-size: 2vh; /* Adjust as needed for smaller screens */
+      }
+    }
+
+     .innerBackground  {
+      border-top-left-radius:30px;
+     border-top-right-radius: 30px;
+     margin:1vh;
+     padding-top:30px;
+      background:white ;
+   
+ }
+  .headerBackground  {   
+ 
+     background-repeat: no-repeat;
+ 
+     width: 97%;
+     height: 14vh; 
+     aspect-Ratio: 1;
+ } 
+
+  .categoryHome{
+     width: 100%;
+     /* height:100%; */
+
+      background-size:cover;
+     
+ }
+
+  .mainBG{
+     max-width: 560px !important;
+     background:#F3F7FA;
+ }
+
+  .menu{
+     border:1px solid coral;
+     /* border-radius: 18px; */
+     color: white;
+     
+     /* padding:5px; */
+     background: coral;
+     margin:9px;
+
+
+ }
+
+ .fullPriceTitle{
+      font-size: 1.8vh;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+  
+.fullPriceBrr{
+  color: coral;
+  font-weight: bold;
+  font-size: large;
+}
+.supperScript{
+  vertical-align: sub;
+  position: relative; top: -0.5em;
+  font-size:  small ;
+}
+
+     
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  /* position: fixed; Stay in place */
+  
+  /* padding-top: 100px; Location of the box */
+
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 10; /*This must be the highest z-index value of your page to be above all*/
+ 
+
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  /* overflow: hidden; Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  
+}
+
+/* Modal Content (image) */
+.modal-content {
+  
+  position: absolute;
+  top:50%; left: 50%;
+  transform: translate(-50%,-50%);
+  /* min-width: 100%;
+  height: auto; */
+  
+    width: 700px;
+    max-width: 700px;
+  
+
+
+ object-fit: cover;
+}
+body.modal{
+  overflow: hidden;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+/* @-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+} */
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+    height: auto;
+  }}
+
+  
